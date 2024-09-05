@@ -4,6 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>Net.Solnet.Rpc.PublicMembers</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,5 +12,7 @@
 	<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
 	<PackageReference Include="Solnet.Wallet" Version="6.1.0" />
   </ItemGroup>
+
+  <Import Project="..\..\SharedBuildProperties.props" />
 
 </Project>
