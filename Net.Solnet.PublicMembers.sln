@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5872AC34-B667-4655-856B-BCB638FD46DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Solnet.Rpc.PublicMembers", "src\Net.Solnet.Rpc.PublicMembers\Net.Solnet.Rpc.PublicMembers.csproj", "{A0ECF6E9-B4A3-4BD3-92DC-9D735CBE702F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0ECF6E9-B4A3-4BD3-92DC-9D735CBE702F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0ECF6E9-B4A3-4BD3-92DC-9D735CBE702F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0ECF6E9-B4A3-4BD3-92DC-9D735CBE702F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0ECF6E9-B4A3-4BD3-92DC-9D735CBE702F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0ECF6E9-B4A3-4BD3-92DC-9D735CBE702F} = {5872AC34-B667-4655-856B-BCB638FD46DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83090C2D-6786-4E72-AD42-B88D9CE3CEEE}
+	EndGlobalSection
+EndGlobal
